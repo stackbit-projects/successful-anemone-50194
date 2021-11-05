@@ -28,6 +28,7 @@ contentModels:
     name: Config
     label: Site configuration
     singleInstance: true
+    readOnly: true
     fields:
       - type: model
         name: header
