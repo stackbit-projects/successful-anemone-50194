@@ -1,6 +1,6 @@
 stackbitVersion: ~0.4.0
 ssgName: nextjs
-nodeVersion: '14'
+nodeVersion: '16'
 cmsName: git
 assets:
   referenceType: static
@@ -34,8 +34,10 @@ models:
       - type: model
         name: header
         label: Header configuration
-        models: [Header]
+        models:
+          - Header
       - type: model
         name: footer
         label: Footer configuration
-        models: [Footer]
+        models:
+          - Footer
