@@ -27,6 +27,7 @@ contentModels:
     type: data
     name: Config
     label: Site configuration
+    singleInstance: true
     fields:
       - type: model
         name: header
