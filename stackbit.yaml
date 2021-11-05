@@ -25,14 +25,14 @@ contentModels:
     newFilePath: 'team/{slug}.json'
   Config:
     type: data
-name: Config
-label: Site configuration
-fields:
-  - type: model
-    name: header
-    label: Header configuration
-    models: [Header]
-  - type: model
-    name: footer
-    label: Footer configuration
-    models: [Footer]
+    name: Config
+    label: Site configuration
+    fields:
+      - type: model
+        name: header
+        label: Header configuration
+        models: [Header]
+      - type: model
+        name: footer
+        label: Footer configuration
+        models: [Footer]
