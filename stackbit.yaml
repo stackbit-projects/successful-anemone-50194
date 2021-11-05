@@ -23,3 +23,15 @@ contentModels:
     newFilePath: 'blog/{slug}.md'
   Person:
     newFilePath: 'team/{slug}.json'
+  type: data
+name: Config
+label: Site configuration
+fields:
+  - type: model
+    name: header
+    label: Header configuration
+    models: [Header]
+  - type: model
+    name: footer
+    label: Footer configuration
+    models: [Footer]
